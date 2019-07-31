@@ -13,6 +13,8 @@
 		DCC0533922F16D6A005758D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC0533822F16D6A005758D4 /* Assets.xcassets */; };
 		DCC0533C22F16D6A005758D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC0533A22F16D6A005758D4 /* LaunchScreen.storyboard */; };
 		DCC0533F22F16D6A005758D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC0533E22F16D6A005758D4 /* main.m */; };
+		DCC0534822F17211005758D4 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC0534622F17211005758D4 /* CategoryViewController.m */; };
+		DCC0534922F17211005758D4 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC0534722F17211005758D4 /* CategoryViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		DCC0533B22F16D6A005758D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCC0533D22F16D6A005758D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC0533E22F16D6A005758D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC0534522F17211005758D4 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		DCC0534622F17211005758D4 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		DCC0534722F17211005758D4 /* CategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				DCC0533A22F16D6A005758D4 /* LaunchScreen.storyboard */,
 				DCC0533D22F16D6A005758D4 /* Info.plist */,
 				DCC0533E22F16D6A005758D4 /* main.m */,
+				DCC0534522F17211005758D4 /* CategoryViewController.h */,
+				DCC0534622F17211005758D4 /* CategoryViewController.m */,
+				DCC0534722F17211005758D4 /* CategoryViewController.xib */,
 			);
 			path = SVN;
 			sourceTree = "<group>";
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC0534922F17211005758D4 /* CategoryViewController.xib in Resources */,
 				DCC0533C22F16D6A005758D4 /* LaunchScreen.storyboard in Resources */,
 				DCC0533922F16D6A005758D4 /* Assets.xcassets in Resources */,
 				DCC0533722F16D5A005758D4 /* Main.storyboard in Resources */,
@@ -141,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC0534822F17211005758D4 /* CategoryViewController.m in Sources */,
 				DCC0533422F16D5A005758D4 /* ViewController.m in Sources */,
 				DCC0533F22F16D6A005758D4 /* main.m in Sources */,
 				DCC0533122F16D5A005758D4 /* AppDelegate.m in Sources */,
